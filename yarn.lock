@@ -488,7 +488,17 @@
     deprecation "^2.0.0"
     once "^1.4.0"
 
-"@octokit/request@8.1.5", "@octokit/request@^8.0.1":
+"@octokit/request@8.1.6":
+  version "8.1.6"
+  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-8.1.6.tgz#a76a859c30421737a3918b40973c2ff369009571"
+  integrity sha512-YhPaGml3ncZC1NfXpP3WZ7iliL1ap6tLkAp6MvbK2fTTPytzVUyUesBBogcdMm86uRYO5rHaM1xIWxigWZ17MQ==
+  dependencies:
+    "@octokit/endpoint" "^9.0.0"
+    "@octokit/request-error" "^5.0.0"
+    "@octokit/types" "^12.0.0"
+    universal-user-agent "^6.0.0"
+
+"@octokit/request@^8.0.1":
   version "8.1.5"
   resolved "https://registry.yarnpkg.com/@octokit/request/-/request-8.1.5.tgz#902ae9565117a1dc410d10b5dbc44c4d27a89b71"
   integrity sha512-zVKbNbX1xUluD9ZR4/tPs1yuYrK9xeh5fGZUXA6u04XGsTvomg0YO8/ZUC0FqAd49hAOEMFPAVUTh+2lBhOhLA==
